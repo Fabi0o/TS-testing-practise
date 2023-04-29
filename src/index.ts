@@ -1,3 +1,3 @@
-const sum = (a: number, b: number) => a + b;
+import capitalize from "./capitalize.js";
 
-export default sum;
+console.log(capitalize("hello") + " " + capitalize("world"));

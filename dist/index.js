@@ -1,4 +1,3 @@
-const sum = (a, b) => a + b;
-console.log(sum(1, 2));
-export {};
+import capitalize from "./capitalize.js";
+console.log(capitalize("hello") + " " + capitalize("world"));
 //# sourceMappingURL=index.js.map
